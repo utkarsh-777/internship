@@ -28,7 +28,8 @@ const Home = () => {
     
     return(
         <div className='home'>
-        <Example />
+
+            <Example />
 
             <h1>My Home Page</h1>
             <h2 className='text-center m-3'><Link to='/about-me'>About Me</Link></h2>
@@ -56,19 +57,18 @@ const Home = () => {
             </div>
 
 
-        <p className="lead text-center pb-5">
-          <Button color="warning" onClick={toggle}>My Name</Button>
-            <Modal isOpen={modal} toggle={toggle} > 
-                <ModalHeader toggle={toggle}>Here is my Name</ModalHeader>
-                <ModalBody>
-                Utkarsh Kashyap
-                </ModalBody>
-                <ModalFooter>
-                <Button color="primary" onClick={toggle}>Do Something</Button>
-                <Button color="secondary" onClick={toggle}>Cancel</Button>
-                </ModalFooter>
-            </Modal>
-        </p>
+            <p className="lead text-center pb-5">
+                <Button color="warning" onClick={toggle}>My Name</Button>
+                <Modal isOpen={modal} toggle={toggle} > 
+                    <ModalHeader toggle={toggle}>Here is my Name</ModalHeader>
+                    <ModalBody>
+                    Utkarsh Kashyap
+                    </ModalBody>
+                    <ModalFooter>
+                    <Button color="secondary" onClick={toggle}>Cancel</Button>
+                    </ModalFooter>
+                </Modal>
+            </p>
         </div>
     )
 }
