@@ -1,0 +1,35 @@
+.home{
+  color: whitesmoke;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+h1{
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1920px) {
+  .home {
+    background-color: #a12121;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .home {
+    background-color: #196782;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    background-color: #842c51
+  }
+}
+@media only screen and (max-width: 360px) {
+  .home {
+    background-color: #f7fbff
+  }
+}
