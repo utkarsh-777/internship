@@ -30,7 +30,7 @@ const Example = () => {
               <NavLink href="">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">GitHub</NavLink>
+              <NavLink href="https://github.com/utkarsh-777/internship">GitHub</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
